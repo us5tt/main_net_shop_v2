@@ -1,0 +1,515 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+
+/* Header Styles
+---------------------------------*/
+
+.header{
+	text-align:center;
+	background:url('../img/pw_maze_black_2X.png') left top repeat;
+	padding:280px 0;
+}
+.logo{
+	width:130px;
+	margin:0 auto 35px;
+}
+.header h1{
+	font-family: 'Montserrat',sans-serif;
+	font-size:50px;
+	font-weight:400;
+	letter-spacing: -1px;
+	margin:0 0 22px 0 ;
+	color:#fff;
+}
+
+.we-create{
+	padding:0;
+	margin:35px 0 55px;
+}
+.wp-pic{
+	margin-bottom:20px;
+}
+.we-create li{
+	display:inline-block;
+	font-family: 'Montserrat',sans-serif;
+	font-size:14px;
+	color: #bcbcbc;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin:0 5px 0 0;
+	padding:0 0 0 15px;
+}
+.we-create li:first-child{
+	background:none;
+}
+
+.start-button {
+	padding-left: 0px;
+}
+
+.start-button li a{
+color: #fff;
+}
+
+
+.link{
+	padding:15px 35px;
+	background:#7cc576;
+	color:#fff !important;
+	font-size:16px;
+	font-weight:400;
+	font-family: 'Montserrat', sans-serif;
+	display:inline-block;
+	border-radius:3px;
+	text-transform:uppercase;
+	line-height:25px;
+	margin-bottom:20px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.link:hover {
+	text-decoration:none;
+	color:#7cc576 !important;
+	background:#fff;
+}
+
+.link:active, .link:focus {
+	background: #7cc576;
+	text-decoration:none;
+	color:#fff !important;
+}
+
+/* Navigation
+---------------------------------*/
+.main-nav-outer{
+	padding:0px;
+	border-bottom:1px solid #dddddd;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
+	background:#fff;
+}
+.main-nav{
+	text-align:center;
+	margin:10px 0 0px;
+	padding:0;
+	list-style:none;
+
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+
+}
+.main-nav li a{
+	display:inline-block;
+	color:#222222;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:17px 32px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover{
+	text-decoration:none;
+	color: #7cc576;
+}
+
+.small-logo{
+	padding:0 32px;
+}
+
+.main-section{
+	padding:90px 0 110px;
+}
+
+/* Footer
+---------------------------------*/
+
+.footer{
+	background:url('../img/pw_maze_black_2X.png') left top repeat;
+	padding:35px 0 35px;
+}
+.footer-logo{
+	margin:15px auto 35px;
+	width: 76px;
+}
+.copyright, .credits{
+	color:#cccccc;
+	font-size:14px;
+	display:block;
+	text-align:center;
+}
+.copyright a, .credits a{
+	color:#7cc576;
+	font-weight:600;
+	text-decoration: none;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.copyright a:hover, .credits a:hover {
+	color: #fff;
+}
+
+.res-nav_click {
+	line-height:38px;
+	font-family: 'FontAwesome';
+	font-size:38px;
+	text-decoration: none !important;
+	color:#777777;
+	font-style:normal;
+	display:none;
+	width:42px;
+	height:27px;
+	margin:20px auto;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
+	color: #7cc576 !important;
+}
+
+.portfolioContainer{
+	max-width: 1140px;
+}
+
+
+
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    font-family: 'Ubuntu', sans-serif; font-weight:normal;
+}
+
+a {
+    text-decoration:none;
+    color:#5993bb;
+}
+
+a:hover {
+    color:#77b6e2;
+}
+
+a.button, input[type="submit"] {
+    color:#fff;
+    background:#5993bb;
+    border-radius:4px;
+    padding:10px 20px;
+    font-size:14px;
+    border:0;
+}
+
+a.button.light {
+    color:#666;
+    background:#ededed;
+}
+
+.text-left {
+    text-align:left;
+}
+
+.text-right {
+    text-align:right;
+}
+
+table {
+    width:100%;
+    border-spacing:0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align:left;
+    font-size:14px;
+    padding:10px;
+    margin:0;
+}
+
+tbody tr:nth-child(odd) {
+    background:#efefef;
+}
+
+tbody tr.subtotal {
+    background:#ccc;
+}
+
+thead th, tbody tr.total {
+    background:#5993bb;
+    color:#fff;
+    font-weight:bold;
+}
+
+table.cart {
+    margin-bottom:40px;
+}
+
+table.cart img {
+    width:180px;
+}
+
+tbody td.num {
+    text-align:right;
+}
+
+td input[type="submit"] {
+    font-size:12px;
+    padding:4px 10px;
+}
+
+form p label, form p input {
+    float:left;
+    clear:both;
+}
+
+form p label {
+    font-size:14px;
+    padding-bottom:4px;
+}
+
+form p input {
+    width:300px;
+    font-size:13px;
+    margin-bottom:10px;
+    padding:10px 12px;
+    border:0;
+    background:#efefef;
+    color:#666;
+    border-radius:4px;
+}
+
+ul.errorlist {
+   float:left;
+   color:#ff0000;
+   clear:both;
+   font-size:13px;
+   margin:0;
+   padding:0;
+}
+
+
+#header {
+    padding:10px 100px;
+    font-size:18px;
+    overflow:auto;
+}
+
+#subheader {
+    background:#ececec;
+    color:#444;
+    padding:15px 100px;
+    overflow:auto;
+}
+
+#header .logo {
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+    color:#333;
+    font-size:22px;
+    margin-right:10%;
+}
+
+#subheader .cart {
+    float:right;
+    padding-top:4px;
+}
+
+#content {
+    padding:0 100px;
+    overflow:hidden;
+}
+
+#sidebar {
+    width:220px;
+    padding:30px 20px 0 0;
+    float:left;
+}
+
+#sidebar ul{
+    margin:0;
+    padding:0;
+}
+
+#sidebar ul li {
+    margin:0;
+    list-style:none;
+    padding:10px 14px;
+}
+
+#sidebar ul li a {
+    display:block;
+}
+
+#sidebar ul li.selected {
+    background:#5993bb;
+    border-radius:4px;
+}
+
+#sidebar ul li.selected a {
+    color:#fff;
+}
+
+#main {
+    float:left;
+    width: 96%;
+    margin-right:-220px;
+    overflow:hidden;
+}
+
+.product-list .item {
+    width:25%;
+    padding:10px 20px 10px 0;
+    float:left;
+    text-align:center;
+    line-height:1.2;
+}
+
+.product-list .item img {
+    width:100%;
+    margin-bottom:8px;
+}
+
+.product-detail {
+    text-align:justify;
+}
+
+.product-detail .price {
+    color:#333;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.product-detail img {
+    width:40%;
+    float:left;
+    padding:0 20px 20px 0;
+}
+
+.product-detail h1 {
+    margin-bottom:0;
+}
+
+.product-detail h2 {
+    margin-top:10px;
+}
+
+.order-form {
+    float:left;
+}
+
+.order-info {
+    float:right;
+    width:300px;
+    background:#efefef;
+    padding:10px 20px;
+    color:#333;
+    border-bottom:4px solid #5993bb;
+}
+
+.order-info h3 {
+    color:#5993bb;
+}
+
+.order-info ul li {
+    margin:0;
+    padding:0;
+    font-size:14px;
+}
+
+.order-info p {
+    font-weight:bold;
+    float:right;
+}
+
+.order-info span {
+    float:right;
+}
+
+.neg {
+    color:#dc1616;
+}
+
+.languages {
+   float:right;
+   padding-top:4px;
+   font-size:14px;
+}
+
+.languages ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+.languages ul li {
+    float:left;
+    margin:0 0 0 10px;
+    font-size:14px;
+}
+
+.languages p {
+    float:left;
+    margin:0;
+}
+
+.recommendations {
+    clear:both;
+}
+
+.recommendations div {
+    float:left;
+}
+
+.recommendations img {
+    width:200px
+}
+
+.recommendations p {
+    clear:both;
+}
+
+.recommendations.cart {
+    width:60%;
+    float:left;
+    overflow:auto;
+}
+
+.recommendations.cart h3 {
+    margin-top:0;
+}
+
+.recommendations.cart .item {
+    margin-right:10px;
+}
+
+.recommendations.cart img {
+    width:120px;
+}
+
+/* braintree hosted fields */
+form div.field {
+    font-size:13px;
+    color:#666;
+    width:300px;
+    height:22px;
+    margin-bottom:10px;
+    padding:6px 12px;
+    border:0;
+    background:#efefef;
+    color:#666;
+    border-radius:4px;
+}
