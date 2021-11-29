@@ -19,18 +19,18 @@
                     <li><a href="/">Головна</a></li>
                     <li><a href="">Магазин</a></li>
                     <li class="small-logo">
-                        <a href="#header"><img alt="" src="{% static 'img/small-logo.png' %}"></a>
+                        <a href="#header"><img src="{% static 'img/small-logo.png' %}" alt=""></a>
                     </li>
                     <li class="nav-item">
                         {% with total_items=cart|length %}
                         {% if total_items > 0 %}
-                            Your cart:
+                            КОШИК:
                             <a href="{% url 'cart:cart_detail' %}">
                             {{ total_items }} item{{ total_items|pluralize }},
                             ${{ cart.get_total_price }}
                             </a>
                         {% else %}
-                            Your cart is empty.
+                            КОШИК ПОРОЖНІЙ.
                         {% endif %}
                         {% endwith %}                  
                     </li>
